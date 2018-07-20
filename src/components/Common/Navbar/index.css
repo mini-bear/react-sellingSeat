@@ -1,0 +1,87 @@
+.nav-container{
+
+    height: 3.125rem;
+
+}
+.left{
+
+    float: left;
+    width: 48px;
+    text-align: center;
+    border-right: 1px solid #222;
+    box-shadow: 1px 0 1px #363636;
+    color: #999;
+
+}
+.right{
+
+    float: right;
+
+}
+nav{
+
+    background: #282828;
+    position: fixed;
+    z-index: 500;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: auto;
+    height: 3.125rem;
+    line-height: 3.125rem;
+    overflow: hidden;
+
+}
+.title{
+
+    padding: 0 1em;
+    float: left;
+    font-size: .875rem;;
+    color: #efefef;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.leftmenu{
+
+    color: #fff;
+    font-size: 1rem;;
+    line-height: 3.125rem;;
+    text-align: left;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.8);
+    width: auto;
+    height: 3.125rem;;
+    margin: 0 auto;
+    float: left;
+}
+.rightmenu{
+
+    float: right;
+    display: block;
+    line-height: 3.125rem;
+    user-select: none;
+
+}
+.city{
+
+    float: left;
+    font-size: .875rem;;
+    padding: 0 6px;
+    color: #999;
+}
+.city i {
+
+    font-size: .875rem;
+
+}
+.user{
+
+    float: left;
+    font-size: 1rem;;
+    width: 3rem;;
+    text-align: center;
+    color: #999;
+    outline: none;
+
+}
